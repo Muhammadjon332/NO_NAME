@@ -37,4 +37,41 @@
 .no_name_boss {
   display: flex;
   gap: 593px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.porten {
+  background: #0f0f0f;
+}
+
+.navigate {
+  background-color: #0f0f0f;
+  padding: 25px 0;
+  margin-top: 15px;
+
+  &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  &__list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+  }
+
+  &__link {
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: gray;
+      padding: 30px 20px;
+      cursor: pointer;
+  }
+
+  & .active {
+      background-color: #1f1f1f;
+      color: white;
+  }
+}
+

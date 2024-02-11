@@ -25,6 +25,11 @@
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 12px;
+    transition: transform 0.6s e;
+    -webkit-transition: transform 0.6s e;
+    -moz-transition: transform 0.6s e;
+    -ms-transition: transform 0.6s e;
+    -o-transition: transform 0.6s e;
 }
 
 .container{
