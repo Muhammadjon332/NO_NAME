@@ -1,22 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-header {
+.header {
   display: flex;
-  gap: 200px;
+  gap: 593px;
   align-items: center;
   justify-content: center;
   background-color: #000000;
-  padding: 15px 0 15px 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .no_name {
   display: flex;
-  gap: 10px;
+  gap: 16px;
 }
 
 .no_naem_p {
   color: gray;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 405px;
+  max-width: 0 auto;
+}
+
+.no_name_boss {
+  display: flex;
+  gap: 593px;
 }/*# sourceMappingURL=index.css.map */
